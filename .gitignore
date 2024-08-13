@@ -1,0 +1,47 @@
+# Go build output
+/bin/
+/obj/
+
+# Dependências do Go
+/vendor/
+
+# Arquivos de módulo do Go
+*.mod
+*.sum
+
+# Arquivos de configuração do Go
+*.lock
+
+# Arquivos do editor (e.g., VS Code, IntelliJ)
+.vscode/
+.idea/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.swp
+
+# Configurações e cache de build
+*.cache
+*.build
+
+# Arquivos gerados pelo Go
+*.exe
+*.test
+*.out
+
+# Docker e DevContainer
+/.devcontainer/
+/docker-compose.yml
+/.docker/
+
+# Arquivos de dados do MySQL
+/.docker/mysql/dbdata
+
+# Arquivos e pastas ocultos específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Diretórios do Git
+.git/
+.history/
